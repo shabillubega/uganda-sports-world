@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uganda Sports World</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: black;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: green;
+        }
+
+        .hero {
+            background: linear-gradient(
+                rgba(0,0,0,0.5),
+                rgba(0,0,0,0.5)
+            ),
+            url("https://images.unsplash.com/photo-1522778119026-d647f0596c20");
+
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .sports {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,
+            minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px gray;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            color: green;
+        }
+
+        section {
+            padding: 30px 15px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        button {
+            background: green;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>UGANDA SPORTS WORLD 🇺🇬</h1>
+    <p>Celebrating Talent, Passion and Excellence</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#football">Football</a>
+    <a href="#athletics">Athletics</a>
+    <a href="#basketball">Basketball</a>
+    <a href="#rugby">Rugby</a>
+    <a href="#boxing">Boxing</a>
+    <a href="#netball">Netball</a>
+    <a href="#about">About Us</a>
+</nav>
+
+<div class="hero" id="home">
+    <h1>WELCOME TO UGANDA SPORTS WORLD</h1>
+
+    <p>
+        Discover the exciting world of sports in Uganda.
+        Explore our athletes, teams and sporting activities.
+    </p>
+
+    <button onclick="showMessage()">
+        Explore Sports
+    </button>
+</div>
+
+<section class="container">
+
+<h2>POPULAR SPORTS IN UGANDA</h2>
+
+<div class="sports">
+
+<div class="card" id="football">
+<img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20">
+
+<h3>FOOTBALL</h3>
+
+<p>
+Football is one of the most popular sports in Uganda.
+The Uganda Cranes represent the country internationally.
+</p>
+
+</div>
+
+<div class="card" id="athletics">
+<img src="5.jpg",width="200"height"200">jpg</img>
+
+<h3>ATHLETICS</h3>
+
+<p>
+Uganda is known for producing talented long-distance
+runners who compete internationally.
+</p>
+
+</div>
+
+<div class="card" id="basketball">
+<img src="4.jpg",width"200"height"200">jpg</img>
+
+<h3>BASKETBALL</h3>
+
+<p>
+Basketball continues to grow through schools,
+clubs and national competitions.
+</p>
+
+</div>
+
+<div class="card" id="rugby">
+<img src="1.jpg",width="200"height="200">jpg</img>
+
+<h3>RUGBY</h3>
+
+<p>
+Rugby is another exciting sport played
+by Ugandan clubs and national teams.
+</p>
+
+</div>
+
+<div class="card" id="boxing">
+<img src="6.jpg",width="200"height="200">jpg</img>
+
+<h3>BOXING</h3>
+
+<p>
+Uganda has a proud boxing tradition
+and continues to develop talented boxers.
+</p>
+
+</div>
+
+<div class="card" id="netball">
+<img src="https://images.unsplash.com/photo-1519861531473-9200262188bf">
+
+<h3>NETBALL</h3>
+
+<p>
+Netball is widely played in Ugandan schools
+and by competitive national teams.
+</p>
+<img src="2.jpg";width="200"height="200">jpg</img>
+</div>
+
+</div>
+</section>
+
+<section id="about">
+
+<h2>ABOUT UGANDA SPORTS WORLD</h2>
+
+<p>
+Uganda Sports World is a platform dedicated to
+promoting sports and sporting talent in Uganda.
+
+Our goal is to inform, educate and entertain
+sports lovers across the country.
+</p>
+
+<h3>Our Mission</h3>
+
+<p>
+To promote Ugandan sports and inspire young
+people to participate in sporting activities.
+</p>
+
+<h3>Contact Us</h3>
+
+<p>Email: ugandasportsworld@gmail.com</p>
+
+<p>Location: Kampala, Uganda</p>
+
+</section>
+
+<footer>
+<p>©️ 2026 Uganda Sports World</p>
+<p>Made with passion for Ugandan Sports 🇺🇬</p>
+</footer>
+
+<script>
+
+function showMessage() {
+
+    alert("Welcome to Uganda Sports World!");
+
+}
+
+</script>
+
+</body>
+</html>
